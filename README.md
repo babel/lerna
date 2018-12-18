@@ -12,6 +12,7 @@
 - [`babel-collect-updates`](https://github.com/nicolo-ribaudo/lerna/tree/babel-collect-updates): This branch is the modified
   version of the `@lerna/collect-updates` package. It isn't published to npm and it is meant to be installed directly from
   GitHub.
+  You can see our custom changes at [`lerna-collect-updates...babel-collect-updates`](https://github.com/nicolo-ribaudo/lerna/compare/lerna-collect-updates...babel-collect-updates)
 
 ## How to update lerna
 
