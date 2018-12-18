@@ -5,7 +5,8 @@
 ## Branches
 
 - `master`: This branch should be syncronyzed with Lerna's and should never be edited.
-  It isn't meant to mirror the actual master (since it contains unreleased changes), but it
-  should mirror a Lerna release.
-- `patch`: You should only edit this branch. It contains some utilities to patch the
-  `@lerna/collect-updates` package and publish it.
+- `lerna-collect-updates`: A branch only containing the `@lerna/collect-updates` package.
+  It is automatically generated using this command and it should never be manually edited:
+  ```
+  git subtree split -P utils/collect-updates -b lerna-collect-updates
+  ```
