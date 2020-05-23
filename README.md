@@ -18,7 +18,7 @@
 
 1. If you just cloned this repo, first set it up:
    ```
-   git remote add upstrean git@github.com:lerna/lerna.git
+   git remote add upstream git@github.com:lerna/lerna.git
    git fetch upstream master
    ```
 
